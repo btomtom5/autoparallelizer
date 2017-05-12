@@ -18,7 +18,7 @@
 
 
 (define (async-run prog data id cb)
-  (cb id (eval prog (the-envionment))))
+  (cb id (eval prog (the-environment))))
 
 
 
